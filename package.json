@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.7.0"
   },
-    "homepage": "https://mato1494.github.io/FormApp",
+  "homepage": "https://mato1494.github.io/FormApp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

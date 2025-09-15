@@ -42,7 +42,8 @@ export default function FormApp() {
           fullWidth
           margin="none"
           slotProps={{
-            formHelperText: {sx: {fontSize: 14}}
+            formHelperText: {sx: {fontSize: 14}},
+            inputLabel: {shrink: true}
           }}
           sx={{my: 2}}
           {...register('name')}
@@ -58,7 +59,8 @@ export default function FormApp() {
           fullWidth
           margin="none"
           slotProps={{
-            formHelperText: {sx: {fontSize: 14}}
+            formHelperText: {sx: {fontSize: 14}},
+            inputLabel: {shrink: true}
           }}
           sx={{my: 2}}
           {...register('email')}
@@ -74,7 +76,8 @@ export default function FormApp() {
           fullWidth
           margin="none"
           slotProps={{
-            formHelperText: {sx: {fontSize: 14}}
+            formHelperText: {sx: {fontSize: 14}},
+            inputLabel: {shrink: true}
           }}
           sx={{my: 2}}
           {...register('title')}
@@ -92,7 +95,8 @@ export default function FormApp() {
           fullWidth
           margin="none"
           slotProps={{
-            formHelperText: {sx: {fontSize: 14}}
+            formHelperText: {sx: {fontSize: 14}},
+            inputLabel: {shrink: true}
           }}
           sx={{my: 2}}
           {...register('message')}

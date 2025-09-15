@@ -15,6 +15,15 @@ const theme = createTheme({
         },
       },
     },
+    MuiOutlinedInput: {
+      styleOverrides: {
+        root: {
+          '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+            borderWidth: 2,
+          },
+        },
+      },
+    },
   },
 });
 
